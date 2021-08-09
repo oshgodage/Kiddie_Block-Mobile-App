@@ -1,6 +1,6 @@
 
 # Kiddie_Block-Mobile-App
-Android mobile app Overview 
+Application Overview
 
 ![Banner to website-1](https://user-images.githubusercontent.com/66914300/128730699-968fcdcc-32cd-4893-a728-308ccabb54ff.png)
 
