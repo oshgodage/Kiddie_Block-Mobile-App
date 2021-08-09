@@ -63,4 +63,10 @@ Class Diagram
 ![Capture10](https://user-images.githubusercontent.com/66914300/128732198-6c93dd09-ff52-49bd-8f69-36cc995e3706.PNG)
 
  
- 
+Research Paper
+
+![19-077_ResearchPaper-1](https://user-images.githubusercontent.com/66914300/128733325-cfa91040-b6f0-47b7-aac5-f414bd10d019.png)
+![19-077_ResearchPaper-2](https://user-images.githubusercontent.com/66914300/128733345-2a1360a4-03f7-42ed-ae7c-96e7cbfe01de.png)
+![19-077_ResearchPaper-3](https://user-images.githubusercontent.com/66914300/128733353-5170d1fc-57da-4084-8411-7bbfb5e730e8.png)
+![19-077_ResearchPaper-4](https://user-images.githubusercontent.com/66914300/128733373-fe3f47cb-04fd-4a0e-b0cb-89b5e5b2449d.png)
+![19-077_ResearchPaper-5](https://user-images.githubusercontent.com/66914300/128733389-54e5d847-f549-41b8-8527-7ddeffe2d89e.png)
