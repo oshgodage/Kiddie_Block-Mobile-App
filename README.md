@@ -40,11 +40,11 @@ Beginner Level Designs
  Advance Level Designs
  
  
-                                 ![HTXJ9935](https://user-images.githubusercontent.com/66914300/128731765-6ac5f970-2fa6-4181-865a-1d3f3edf8011.jpg)
+ ![HTXJ9935](https://user-images.githubusercontent.com/66914300/128731765-6ac5f970-2fa6-4181-865a-1d3f3edf8011.jpg)
+ 
+ ![GCST4292](https://user-images.githubusercontent.com/66914300/128731802-003f1db5-ca87-469f-aa9d-1154e67748f9.jpg)
 
-                                 ![GCST4292](https://user-images.githubusercontent.com/66914300/128731802-003f1db5-ca87-469f-aa9d-1154e67748f9.jpg)
-
-                                 ![RNOO5633](https://user-images.githubusercontent.com/66914300/128731820-14b2cf46-5f39-46bf-91c2-fdf34027ccdc.jpg)
+ ![RNOO5633](https://user-images.githubusercontent.com/66914300/128731820-14b2cf46-5f39-46bf-91c2-fdf34027ccdc.jpg)
 
 
 Recommendation Feature
