@@ -1,13 +1,13 @@
 
 # Kiddie_Block-Mobile-App
-Android mobile app
+Android mobile app Overview 
 
 ![Banner to website-1](https://user-images.githubusercontent.com/66914300/128730699-968fcdcc-32cd-4893-a728-308ccabb54ff.png)
 
 
-App Screens
+Main  Screens
 
-Home Page
+Register Screen 
 
 ![PAFN4724](https://user-images.githubusercontent.com/66914300/128730870-96b0d31a-87b9-45a3-b021-141fdda15fac.jpg)
 
@@ -15,7 +15,10 @@ Home Page
 
 Levels on the app
 
+
 Beginner Level Designs 
+
+
 ![GMEM1826](https://user-images.githubusercontent.com/66914300/128731024-39946a49-986d-4203-b5e9-bb1cc7fec7de.jpg)
 
 ![BIYW3204](https://user-images.githubusercontent.com/66914300/128731033-5692a83b-cd38-4435-b3f5-34d7c336dba2.jpg)
@@ -30,9 +33,12 @@ Beginner Level Designs
 
  Medium Level Designs
  
+ 
  ![UAZX3184](https://user-images.githubusercontent.com/66914300/128731295-bb54042f-c557-4f3a-8a9e-999a20edc9f4.jpg)
 
+
  Advance Level Designs
+ 
  
  ![HTXJ9935](https://user-images.githubusercontent.com/66914300/128731765-6ac5f970-2fa6-4181-865a-1d3f3edf8011.jpg)
 
@@ -43,6 +49,7 @@ Beginner Level Designs
 
 Recommendation Feature
 
+
 ![JXYZ3651](https://user-images.githubusercontent.com/66914300/128731889-9ecf78d4-0219-4749-b5df-1e61966e8e86.jpg)
 
 
@@ -50,10 +57,6 @@ Recommendation Feature
  
  ![QCFZ6576](https://user-images.githubusercontent.com/66914300/128731931-269b68d0-821b-46f7-8c2e-236c1c619266.jpg)
 
-
-Kiddi Block App overview
-
-![Banner to website-1](https://user-images.githubusercontent.com/66914300/128732019-f662cd79-43cd-4f33-96b2-5698e5cfa9c1.png)
 
 Class Diagram
 
