@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/iv_backPreview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_activity_back_arrow"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_header"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:text="Level 1"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="Roboto-Regular"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+    <ImageView
+        android:id="@+id/iv_levelModelImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_level_1"
+        android:padding="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/imageview_background_style"/>
+
+    <LinearLayout
+        android:id="@+id/lo_toComplete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:orientation="vertical"
+        android:weightSum="33"
+        android:visibility="visible">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="15"/>
+
+        <ImageButton
+            android:id="@+id/btn_capture"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/button_style"
+            android:src="@mipmap/ic_camera"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageButton
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:background="@drawable/button_style"
+            android:src="@mipmap/ic_submit"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/lo_completed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="33"
+        android:orientation="vertical"
+        android:weightSum="100"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"/>
+
+        <TextView
+            android:id="@+id/tv_levelResult"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="50"
+            android:text="Result: 0.84"
+            android:gravity="top|left"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="normal"
+            android:fontFamily="Roboto-Regular"
+            android:background="@color/half_transparent"
+            android:padding="15dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"/>
+
+        <ImageButton
+            android:id="@+id/btn_captureCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:background="@drawable/button_style"
+            android:src="@mipmap/ic_camera"/>
+
+        <ImageButton
+            android:id="@+id/btn_submitCompleted"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="25"
+            android:background="@drawable/button_style"
+            android:src="@mipmap/ic_submit"
+            android:visibility="gone"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"/>
+
+    </LinearLayout>
+
+</LinearLayout>

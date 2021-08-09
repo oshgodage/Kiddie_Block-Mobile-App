@@ -1,0 +1,1389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/iv_backPlay"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_activity_back_arrow"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:text="Let's Play"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="Roboto-Regular"
+            android:background="@color/colorPrimary"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="88">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+<!-- ************************ easy level start *************************** -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Easy Level >>"
+                android:gravity="center_vertical|left"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="Roboto-Regular"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="1"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel1"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel1"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="2"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel2"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel2"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="3"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel3"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel3"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="4"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel4"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel4"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="5"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel5"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel5"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimaryDark">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+<!-- ************************ easy level end *************************** -->
+
+
+
+<!-- ************************ moderate level start *************************** -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Moderate Level >>"
+                android:gravity="center_vertical|left"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="Roboto-Regular"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="6"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel6"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel6"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="7"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel7"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel7"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="8"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel8"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel8"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="9"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel9"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel9"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="10"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel10"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel10"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="11"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel11"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel11"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="12"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel12"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel12"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="13"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel13"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel13"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="14"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel14"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel14"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="15"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel15"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel15"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimaryDark">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimaryDark">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+<!-- ************************ moderate level end *************************** -->
+
+
+
+
+<!-- ************************ Advance level start *************************** -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="Advance Level >>"
+                android:gravity="center_vertical|left"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="Roboto-Regular"
+                android:background="@color/colorPrimaryDark"
+                android:paddingLeft="10dp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="16"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel16"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel16"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="17"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel17"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel17"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="18"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel18"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel18"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:weightSum="90">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="19"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel19"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel19"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:id="@+id/lo_level20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimary">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="20"
+                            android:gravity="center_vertical|center_horizontal"
+                            android:textSize="80sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:fontFamily="Roboto-Regular"
+                            android:background="@color/colorPrimary"/>
+
+                        <ImageView
+                            android:id="@+id/iv_blockLevel20"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_block2"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="visible"/>
+
+                        <ImageView
+                            android:id="@+id/iv_completeLevel20"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/ic_complete"
+                            android:padding="8dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:background="@color/half_transparent"
+                            android:visibility="gone"/>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30"
+                    android:background="@color/colorPrimaryDark">
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"/>
+
+            </LinearLayout>
+
+<!-- ************************ Advance level end *************************** -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/iv_backReg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_activity_back_arrow"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:text="Kid Registration"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="Roboto-Regular"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/edittext_style"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Kid's Name"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="text"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="Roboto-Regular"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <EditText
+        android:id="@+id/et_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/edittext_style"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Kid's Birthday"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="date"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="Roboto-Regular"
+        android:focusable="false"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/edittext_style"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Kid's Weight (Kg)"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="number"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="Roboto-Regular"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:background="@drawable/edittext_style"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Kid's Height (meters)"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="numberDecimal"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:imeOptions="actionDone"
+        android:maxLines="1"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="Roboto-Regular"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:text="Kid's Gender"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="30sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="Roboto-Regular"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="60">
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="100">
+
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:text="Male"
+                    android:fontFamily="Roboto-Regular"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"/>
+
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="50"
+                    android:text="Female"
+                    android:fontFamily="Roboto-Regular"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/button_style"
+        android:text="Register"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:fontFamily="Roboto-Regular"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"/>
+
+</LinearLayout>

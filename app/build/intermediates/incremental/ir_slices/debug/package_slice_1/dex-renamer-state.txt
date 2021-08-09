@@ -1,0 +1,4 @@
+#Sun Aug 25 22:01:10 IST 2019
+base.0=D\:\\SLIIT_Projects\\Kiddie_Blocks_App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
+renamed.0=classes.dex
